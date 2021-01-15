@@ -1,10 +1,9 @@
 # lol-aram-boost
-Skin boosts a League of Legends ARAM lobby without consuming any RP, giving you a free skin and extra Blue Essence
 
-# How to use
-1. Join an ARAM lobby
-2. Run the script using `py aram.py`
-3. Go back to your League of Legends client, your ARAM lobby should now be skin boosted.
+Skin boosts a League of Legends ARAM lobby without consuming any RP, temporarily unlocking you a skin and granting extra BE at the end of your match
 
-# Todo
-Add support for MacOS
+# Usage
+
+1. Get into an ARAM champion select lobby
+2. Run the script
+3. Your lobby should now be skin boosted!
