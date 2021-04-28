@@ -1,7 +1,11 @@
 import subprocess
 import re
-import urllib3
-import requests
+try:
+    import requests
+    import urllib3
+except ModuleNotFoundError:
+    print('[!] You are missing the "requests" module.\nYou may install it via either of the following commands: "pip install requests" or "python -m pip install requests".\n\nPress any key to exit.')
+    input()
 
 if __name__ == '__main__':
     try:        
@@ -18,7 +22,7 @@ if __name__ == '__main__':
         port = re.findall(r'"--app-port=(.*?)"', output)[0]
         password = re.findall(r'"--remoting-auth-token=(.*?)"', output)[0]
 
-        # Disables the annoying certificate error
+        # Disable the annoying certificate error
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
         # Set up session
@@ -27,7 +31,7 @@ if __name__ == '__main__':
 
         print('[*] Connected to League; Enter to boost lobby, ^C to exit.')
 
-        # Loop
+        # Running in an infinite loop, so the user doesn't have to restart the script all the time
         while True:
             input()
             session.post('https://127.0.0.1:%s/lol-login/v1/session/invoke?destination=lcdsServiceProxy&method=call&args=["","teambuilder-draft","activateBattleBoostV1",""]' %
