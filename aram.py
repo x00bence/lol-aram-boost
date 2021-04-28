@@ -6,6 +6,7 @@ try:
 except ModuleNotFoundError:
     print('[!] You are missing the "requests" module.\nYou may install it via either of the following commands: "pip install requests" or "python -m pip install requests".\n\nPress any key to exit.')
     input()
+    exit()
 
 if __name__ == '__main__':
     try:        
