@@ -10,8 +10,8 @@ Skin boosts a League of Legends ARAM lobby without consuming any RP, temporarily
 
 # Requirements
 
-- [https://www.python.org/downloads/](Python 3)
-- [https://pypi.org/project/requests/](requests)
+- [Python 3](https://www.python.org/downloads/)
+- [requests](https://pypi.org/project/requests/)
 
 # History
 
