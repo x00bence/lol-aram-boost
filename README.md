@@ -1,12 +1,17 @@
 # lol-aram-boost
 
-Skin boosts a League of Legends ARAM lobby without consuming any RP, temporarily unlocking you a skin and granting extra BE at the end of your match.
+Skin boosts a League of Legends ARAM lobby without consuming any RP, temporarily unlocking a skin for everyone and granting you extra BE at the end of your match.
 
 # Usage
 
-1. Open your client and/or get into an ARAM champion select lobby
+1. Open your client/get into an ARAM champion select lobby
 2. Run the script (Note: Run as administrator if your client is also running as that)
 3. Your lobby should now be skin boosted!
+
+# Requirements
+
+- [https://www.python.org/downloads/](Python 3)
+- [https://pypi.org/project/requests/](requests)
 
 # History
 
