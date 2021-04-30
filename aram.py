@@ -30,7 +30,7 @@ if __name__ == '__main__':
         session = requests.session()
         session.verify = False
 
-        print('[*] Connected to League; Enter to boost lobby, ^C to exit.')
+        print('[*] Connected to League; Press Enter to boost lobby, ^C to exit.')
 
         # Running in an infinite loop, so the user doesn't have to restart the script all the time
         while True:
