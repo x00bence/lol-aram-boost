@@ -4,9 +4,10 @@ Skin boosts a League of Legends ARAM lobby without consuming any RP, temporarily
 
 # ⚡ Usage
 
-1. Open your client/get into an ARAM champion select lobby
-2. Run the script (Note: Run as administrator if your client is also running as that)
-3. Your lobby should now be skin boosted!
+1. Open your client (be logged in)
+2. Run the script after logging in (your client is visible) or when you're in champion select (Note: Run as administrator if your client is also running as that, otherwise it will give you an error)
+3. Follow the instructions
+4. Your lobby should be skin boosted!
 
 # 🔧 Requirements
 
