@@ -11,10 +11,12 @@ Skin boosts a League of Legends ARAM lobby without consuming any RP, temporarily
 
 # 🔧 Requirements
 
-You must have Python 3+ installed on your PC, along with the `requests` module. You can download these from here:
+You must have Python 3+ installed on your PC, along with the `requests` module. 
 
 - [Python 3](https://www.python.org/downloads/)
 - [requests](https://pypi.org/project/requests/)
+
+After installing Python, you can install requests from the command prompt with either of these commands: `pip install requests` or `python -m pip install requests`.
 
 # ⏪ History
 
