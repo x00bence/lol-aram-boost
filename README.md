@@ -11,11 +11,11 @@ Skin boosts a League of Legends ARAM lobby without consuming any RP, temporarily
 
 # 🔧 Requirements
 
-## Downloading compiled
+### Downloading compiled
 
 You can download lol-aram-boost [right here](https://github.com/x00bence/lol-aram-boost/releases/latest). You can simply run the `.exe` file and not bother with compiling.
 
-## Building from source
+### Building from source
 
 You must have Python 3+ installed on your PC, along with the `requests` module. 
 
