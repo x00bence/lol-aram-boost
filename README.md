@@ -22,6 +22,8 @@ You must have Python 3+ installed on your PC, along with the `requests` module.
 
 After installing Python, you can install requests from the command prompt with either of these commands: `pip install requests` or `python -m pip install requests`.
 
+You may build your own executable file using PyInstaller or similar tools.
+
 # ⏪ History
 
 - September 13, 2020: lol-aram-boost is released.
